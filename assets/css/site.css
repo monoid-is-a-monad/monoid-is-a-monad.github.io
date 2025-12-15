@@ -84,6 +84,37 @@ body {
   color: #fff;
 }
 
+.lang-switcher {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 700;
+}
+
+.lang-switcher a {
+  color: #eef3ff;
+  text-decoration: none;
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  transition: all 0.15s ease;
+}
+
+.lang-switcher a:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+.lang-switcher a.active {
+  background: #fff;
+  color: var(--brand-dark);
+  border-color: #fff;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;

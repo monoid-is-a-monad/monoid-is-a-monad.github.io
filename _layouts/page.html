@@ -21,8 +21,12 @@
     {% assign t = site.data.i18n[current_lang] %}
     {% if current_lang == 'en' %}
       {% assign lang_prefix = '/en' %}
+      {% assign other_lang = 'el' %}
+      {% assign other_prefix = '/el' %}
     {% else %}
       {% assign lang_prefix = '/el' %}
+      {% assign other_lang = 'en' %}
+      {% assign other_prefix = '/en' %}
     {% endif %}
     <header class="site-header">
       <div class="container header-inner">
@@ -34,6 +38,10 @@
           <a href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ t.nav.contact }}</a>
           <a class="btn primary" href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ t.nav.cta }}</a>
         </nav>
+        <div class="lang-switcher" aria-label="Language switcher">
+          <a class="{% if current_lang == 'el' %}active{% endif %}" href="{{ '/el/' | relative_url }}" title="Ελληνικά">🇬🇷 EL</a>
+          <a class="{% if current_lang == 'en' %}active{% endif %}" href="{{ '/en/' | relative_url }}" title="English">🇬🇧 EN</a>
+        </div>
       </div>
     </header>
     <main class="container page-content">
