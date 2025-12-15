@@ -17,7 +17,7 @@ permalink: /about/
 </div>
 
 <div class="lang-block" data-lang="el" markdown="1">
-## Ελληνικά {#el}
+<h2 id="el" class="sr-only">Ελληνικά</h2>
 
 ### Ποιοι είμαστε
 Για πάνω από τρεις δεκαετίες, η «Σχολή Οδηγών Καραθανάσης» στηρίζει τους κατοίκους της Τούμπας να οδηγήσουν με σιγουριά. Με έδρα την Ανατολικής Θράκης 49, γνωρίζουμε τους δρόμους, τις ανάγκες και το πώς να χτίζουμε αυτοπεποίθηση σε κάθε ηλικία.
@@ -37,7 +37,7 @@ permalink: /about/
 </div>
 
 <div class="lang-block" data-lang="en" markdown="1">
-## English {#en}
+<h2 id="en" class="sr-only">English</h2>
 
 ### Who we are
 For over three decades, Karathanasis Driving School has helped Toumpa residents drive with confidence. Based at Anatolikis Thrakis 49, we know the local streets, the exam routes, and how to build your confidence at any age.

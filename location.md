@@ -19,7 +19,7 @@ permalink: /location/
 </div>
 
 <div class="lang-block" data-lang="el" markdown="1">
-## Ελληνικά {#el}
+<h2 id="el" class="sr-only">Ελληνικά</h2>
 
 ### Πώς θα μας βρείτε
 - Διεύθυνση: <a href="https://www.google.com/maps?q=%CE%91%CE%BD%CE%B1%CF%84%CE%BF%CE%BB%CE%B9%CE%BA%CE%AE%CF%82+%CE%98%CF%81%CE%AC%CE%BA%CE%B7%CF%82+49,+%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7" target="_blank" rel="noopener">Ανατολικής Θράκης 49, Τούμπα, Θεσσαλονίκη</a>.
@@ -32,7 +32,7 @@ permalink: /location/
 </div>
 
 <div class="lang-block" data-lang="en" markdown="1">
-## English {#en}
+<h2 id="en" class="sr-only">English</h2>
 
 ### How to find us
 - Address: <a href="https://www.google.com/maps?q=Anatolikis+Thrakis+49,+Thessaloniki" target="_blank" rel="noopener">Anatolikis Thrakis 49, Toumpa, Thessaloniki</a>.

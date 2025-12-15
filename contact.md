@@ -39,7 +39,7 @@ permalink: /contact/
 </div>
 
 <div class="lang-block" data-lang="el" markdown="1">
-## Ελληνικά {#el}
+<h2 id="el" class="sr-only">Ελληνικά</h2>
 
 ### Κλείσε μάθημα
 Καλέσε μας ή στείλε τη φόρμα για να σου προτείνουμε πρόγραμμα θεωρίας και πρακτικής που ταιριάζει στο ωράριό σου.
@@ -50,7 +50,7 @@ permalink: /contact/
 </div>
 
 <div class="lang-block" data-lang="en" markdown="1">
-## English {#en}
+<h2 id="en" class="sr-only">English</h2>
 
 ### Book a lesson
 Call or send the form and we will suggest a theory and practical plan that fits your schedule.

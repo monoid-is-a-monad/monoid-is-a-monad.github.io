@@ -8,8 +8,14 @@ permalink: /
 <div class="hero section-card">
   <div>
     <p class="badges"><span class="badge">30+ χρόνια εμπειρία</span><span class="badge">Τούμπα, Θεσσαλονίκη</span></p>
-    <h2>Σχολή Οδηγών Καραθανάσης στην καρδιά της Τούμπας.</h2>
-    <p>Σύγχρονα οχήματα, προσωποποιημένη εκπαίδευση και έμπειροι εκπαιδευτές για να νιώθεις ασφαλής από το πρώτο μάθημα.</p>
+    <div class="lang-block" data-lang="el">
+      <h2>Σχολή Οδηγών Καραθανάσης στην καρδιά της Τούμπας.</h2>
+      <p>Σύγχρονα οχήματα, προσωποποιημένη εκπαίδευση και έμπειροι εκπαιδευτές για να νιώθεις ασφαλής από το πρώτο μάθημα.</p>
+    </div>
+    <div class="lang-block" data-lang="en">
+      <h2>Karathanasis Driving School in the heart of Toumpa.</h2>
+      <p>Modern manual vehicles, personalized training, and seasoned instructors so you feel safe from lesson one.</p>
+    </div>
     <div class="badges">
       <span class="badge">🚗 Σύγχρονα οχήματα</span>
       <span class="badge">🎯 Προσωπική καθοδήγηση</span>
@@ -25,14 +31,20 @@ permalink: /
     </ul>
   </div>
   <div class="highlight-box">
-    <h3>Ready to drive with confidence?</h3>
-    <p>Practical & theory training for cars (B) and motorcycles (A) on well-maintained manual vehicles. Fast-track options available.</p>
-    <p><a class="btn primary" href="{{ "/contact/" | relative_url }}">Book a lesson</a></p>
+    <div class="lang-block" data-lang="el">
+      <h3>Έτοιμος να οδηγήσεις με αυτοπεποίθηση;</h3>
+      <p>Θεωρία και πρακτική για αυτοκίνητο (Β) και μοτοσικλέτα (Α) σε άριστα χειροκίνητα οχήματα. Διαθέσιμες εντατικές επιλογές.</p>
+    </div>
+    <div class="lang-block" data-lang="en">
+      <h3>Ready to drive with confidence?</h3>
+      <p>Practical & theory training for cars (B) and motorcycles (A) on well-maintained manual vehicles. Fast-track options available.</p>
+    </div>
+    <p><a class="btn primary" href="{{ "/contact/" | relative_url }}">Κλείσε μάθημα / Book a lesson</a></p>
   </div>
 </div>
 
 <div class="lang-block" data-lang="el" markdown="1">
-## Ελληνικά {#el}
+<h2 id="el" class="sr-only">Ελληνικά</h2>
 
 ### Γιατί να μας επιλέξετε
 - 30+ χρόνια συνεχούς λειτουργίας στην Τούμπα με χιλιάδες επιτυχημένους οδηγούς.
@@ -50,7 +62,7 @@ permalink: /
 </div>
 
 <div class="lang-block" data-lang="en" markdown="1">
-## English {#en}
+<h2 id="en" class="sr-only">English</h2>
 
 ### Why choose us
 - 30+ years serving Toumpa with thousands of successful drivers.

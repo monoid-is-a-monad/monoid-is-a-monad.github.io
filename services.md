@@ -6,7 +6,7 @@ permalink: /services/
 ---
 
 <div class="lang-block" data-lang="el" markdown="1">
-## Ελληνικά {#el}
+<h2 id="el" class="sr-only">Ελληνικά</h2>
 
 ### Τι παρέχουμε
 - Θεωρητικά μαθήματα με mock tests και σημειώσεις.
@@ -54,7 +54,7 @@ permalink: /services/
 </div>
 
 <div class="lang-block" data-lang="en" markdown="1">
-## English {#en}
+<h2 id="en" class="sr-only">English</h2>
 
 ### What we provide
 - Theory classes with mock tests and notes.
