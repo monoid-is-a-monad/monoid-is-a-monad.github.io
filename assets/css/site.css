@@ -49,6 +49,21 @@ body {
   letter-spacing: 0.2px;
 }
 
+.l-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  margin-right: 8px;
+  border-radius: 6px;
+  background: #d7263d;
+  color: #fff;
+  font-weight: 800;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -260,6 +275,29 @@ form textarea {
   border-radius: 12px;
   overflow: hidden;
   min-height: 360px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.photo-grid figure {
+  margin: 0;
+}
+
+.photo-grid img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.photo-grid figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-weight: 600;
 }
 
 @media (max-width: 720px) {

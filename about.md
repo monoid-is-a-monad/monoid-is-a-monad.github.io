@@ -5,6 +5,17 @@ description: "30+ χρόνια εμπειρίας στην Τούμπα Θεσσ
 permalink: /about/
 ---
 
+<div class="section-card photo-grid" aria-label="Φωτογραφίες σχολής">
+	<figure>
+		<img src="{{ "/assets/img/sxoli.jpg" | relative_url }}" alt="Εξωτερικός χώρος Σχολής Οδηγών Καραθανάσης / Karathanasis Driving School exterior" />
+		<figcaption>Εξωτερικός χώρος σχολής / School exterior</figcaption>
+	</figure>
+	<figure>
+		<img src="{{ "/assets/img/akis.jpg" | relative_url }}" alt="Κύριος εκπαιδευτής στο γραφείο / Lead instructor at his desk" />
+		<figcaption>Κύριος εκπαιδευτής / Lead instructor</figcaption>
+	</figure>
+</div>
+
 ## Ελληνικά {#el}
 
 ### Ποιοι είμαστε
