@@ -11,8 +11,8 @@ permalink: /en/contact/
   <ul class="quick-list">
     <li><strong>Phone:</strong> <a href="tel:+306937258280">+30 693 725 8280</a></li>
     <li><strong>Address:</strong> <a href="https://www.google.com/maps?q=Anatolikis+Thrakis+49,+Thessaloniki" target="_blank" rel="noopener">Anatolikis Thrakis 49, Toumpa, Thessaloniki</a></li>
-    <li><strong>Facebook:</strong> <a class="icon-link" href="https://www.facebook.com/KarathanasisAkis/about"><span class="icon" aria-hidden="true">📘</span>KarathanasisAkis</a></li>
-    <li><strong>Instagram:</strong> <a class="icon-link" href="https://www.instagram.com/karathanasissxoliodigon/"><span class="icon" aria-hidden="true">📸</span>@karathanasissxoliodigon</a></li>
+    <li><strong>Facebook:</strong> <a class="icon-link" href="https://www.facebook.com/KarathanasisAkis/about"><img class="icon" src="{{ '/assets/img/facebook.png' | relative_url }}" alt="Facebook" />KarathanasisAkis</a></li>
+    <li><strong>Instagram:</strong> <a class="icon-link" href="https://www.instagram.com/karathanasissxoliodigon/"><img class="icon" src="{{ '/assets/img/instagram.avif' | relative_url }}" alt="Instagram" />@karathanasissxoliodigon</a></li>
   </ul>
 </div>
 
