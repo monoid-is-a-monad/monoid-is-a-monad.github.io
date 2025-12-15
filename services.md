@@ -5,7 +5,7 @@ description: "Θεωρητική και πρακτική εκπαίδευση γ
 permalink: /services/
 ---
 
-<div class="lang-block" data-lang="el">
+<div class="lang-block" data-lang="el" markdown="1">
 ## Ελληνικά {#el}
 
 ### Τι παρέχουμε
@@ -53,7 +53,7 @@ permalink: /services/
 4. Προσομοίωση εξέτασης και καθοδήγηση την ημέρα του ραντεβού.
 </div>
 
-<div class="lang-block" data-lang="en">
+<div class="lang-block" data-lang="en" markdown="1">
 ## English {#en}
 
 ### What we provide

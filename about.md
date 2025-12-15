@@ -16,7 +16,7 @@ permalink: /about/
 	</figure>
 </div>
 
-<div class="lang-block" data-lang="el">
+<div class="lang-block" data-lang="el" markdown="1">
 ## Ελληνικά {#el}
 
 ### Ποιοι είμαστε
@@ -36,7 +36,7 @@ permalink: /about/
 Να σε καθοδηγήσουμε με σταθερά βήματα, με πραγματικό ενδιαφέρον και σαφείς οδηγίες, ώστε να περάσεις τις εξετάσεις και να νιώθεις ασφαλής κάθε μέρα στο δρόμο.
 </div>
 
-<div class="lang-block" data-lang="en">
+<div class="lang-block" data-lang="en" markdown="1">
 ## English {#en}
 
 ### Who we are
