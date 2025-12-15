@@ -1,0 +1,36 @@
+title: "Σχολή Οδηγών Καραθανάσης / Karathanasis Driving School"
+description: "Σχολή Οδηγών Καραθανάσης στην Τούμπα Θεσσαλονίκης – 30+ χρόνια εμπειρίας σε θεωρητική και πρακτική εκπαίδευση οδηγών."
+lang: el
+url: "https://monoid-is-a-monad.github.io"
+baseurl: ""
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - about.md
+  - services.md
+  - location.md
+  - contact.md
+
+# Social links for minima
+social_links:
+  - platform: facebook
+    user_url: https://www.facebook.com/KarathanasisAkis/about
+  - platform: instagram
+    user_url: https://www.instagram.com/karathanasissxoliodigon/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      lang: el
+
+# Build settings
+permalink: pretty
+show_excerpts: false

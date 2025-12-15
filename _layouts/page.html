@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="el">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}" />
+    <link rel="stylesheet" href="{{ "/assets/css/site.css" | relative_url }}" />
+    <link rel="icon" href="{{ "/favicon.ico" | relative_url }}" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ "/feed.xml" | relative_url }}" />
+    <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+    <meta property="og:description" content="{{ page.description | default: site.description }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:image" content="{{ "/og-cover.jpg" | absolute_url }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    {% include head-extra.html %}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="{{ "/" | relative_url }}">Σχολή Οδηγών Καραθανάσης</a>
+        <nav class="nav">
+          <a href="{{ "/about/" | relative_url }}">Σχετικά</a>
+          <a href="{{ "/services/" | relative_url }}">Υπηρεσίες</a>
+          <a href="{{ "/location/" | relative_url }}">Τοποθεσία</a>
+          <a href="{{ "/contact/" | relative_url }}">Επικοινωνία</a>
+          <a class="btn primary" href="{{ "/contact/" | relative_url }}">Κλείσε μάθημα / Book a lesson</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container page-content">
+      <h1 class="page-title">{{ page.title }}</h1>
+      <div class="lang-switch">
+        <a href="#el">Ελληνικά</a>
+        <span aria-hidden="true">/</span>
+        <a href="#en">English</a>
+      </div>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
