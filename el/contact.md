@@ -11,8 +11,8 @@ permalink: /el/contact/
   <ul class="quick-list">
     <li><strong>Τηλέφωνο:</strong> <a href="tel:+306937258280">+30 693 725 8280</a></li>
     <li><strong>Διεύθυνση:</strong> <a href="https://www.google.com/maps?q=%CE%91%CE%BD%CE%B1%CF%84%CE%BF%CE%BB%CE%B9%CE%BA%CE%AE%CF%82+%CE%98%CF%81%CE%AC%CE%BA%CE%B7%CF%82+49,+%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7" target="_blank" rel="noopener">Ανατολικής Θράκης 49, Τούμπα, Θεσσαλονίκη</a></li>
-    <li><strong>Facebook:</strong> <a class="icon-link" href="https://www.facebook.com/KarathanasisAkis/about"><img class="icon" src="{{ '/assets/img/facebook.png' | relative_url }}" alt="Facebook" />KarathanasisAkis</a></li>
-    <li><strong>Instagram:</strong> <a class="icon-link" href="https://www.instagram.com/karathanasissxoliodigon/"><img class="icon" src="{{ '/assets/img/instagram.avif' | relative_url }}" alt="Instagram" />@karathanasissxoliodigon</a></li>
+    <li><strong>Facebook:</strong> <a class="icon-link" href="https://www.facebook.com/KarathanasisAkis/about"><img class="icon" src="{{ '/assets/img/facebook.jpg' | relative_url }}" alt="Facebook" />KarathanasisAkis</a></li>
+    <li><strong>Instagram:</strong> <a class="icon-link" href="https://www.instagram.com/karathanasissxoliodigon/"><img class="icon" src="{{ '/assets/img/instagram.svg' | relative_url }}" alt="Instagram" />@karathanasissxoliodigon</a></li>
   </ul>
 </div>
 
