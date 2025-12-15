@@ -16,6 +16,7 @@ permalink: /about/
 	</figure>
 </div>
 
+<div class="lang-block" data-lang="el">
 ## Ελληνικά {#el}
 
 ### Ποιοι είμαστε
@@ -33,7 +34,9 @@ permalink: /about/
 
 ### Η υπόσχεσή μας
 Να σε καθοδηγήσουμε με σταθερά βήματα, με πραγματικό ενδιαφέρον και σαφείς οδηγίες, ώστε να περάσεις τις εξετάσεις και να νιώθεις ασφαλής κάθε μέρα στο δρόμο.
+</div>
 
+<div class="lang-block" data-lang="en">
 ## English {#en}
 
 ### Who we are
@@ -51,3 +54,4 @@ For over three decades, Karathanasis Driving School has helped Toumpa residents 
 
 ### Our promise
 To guide you with clear steps, real care, and actionable feedback so you pass your exams and feel safe every day on the road.
+</div>

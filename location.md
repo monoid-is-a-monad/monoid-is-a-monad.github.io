@@ -22,6 +22,7 @@ permalink: /location/
   });
 </script>
 
+<div class="lang-block" data-lang="el">
 ## Ελληνικά {#el}
 
 ### Πώς θα μας βρείτε
@@ -32,7 +33,9 @@ permalink: /location/
 - Συγκοινωνία: Γραμμές λεωφορείου προς Τούμπα σταματούν σε 3-5 λεπτά περπάτημα.
 - Στάθμευση: Διαθέσιμος γύρω δρόμος και κάθετες οδοί για σύντομη στάση.
 - Προγραμματίστε το ραντεβού σας πριν έρθετε για να σας περιμένουμε.
+</div>
 
+<div class="lang-block" data-lang="en">
 ## English {#en}
 
 ### How to find us
@@ -43,3 +46,4 @@ permalink: /location/
 - Public transport: Bus lines to Toumpa drop you within a 3–5 minute walk.
 - Parking: Street parking available on the surrounding roads and side streets.
 - Book your slot so we can welcome you when you arrive.
+</div>

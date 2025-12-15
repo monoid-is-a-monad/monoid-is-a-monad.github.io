@@ -5,6 +5,7 @@ description: "Θεωρητική και πρακτική εκπαίδευση γ
 permalink: /services/
 ---
 
+<div class="lang-block" data-lang="el">
 ## Ελληνικά {#el}
 
 ### Τι παρέχουμε
@@ -50,7 +51,9 @@ permalink: /services/
 2. Θεωρητική προετοιμασία με υλικό που μένει.
 3. Πρακτική εκπαίδευση σε πραγματικές διαδρομές.
 4. Προσομοίωση εξέτασης και καθοδήγηση την ημέρα του ραντεβού.
+</div>
 
+<div class="lang-block" data-lang="en">
 ## English {#en}
 
 ### What we provide
@@ -96,3 +99,4 @@ permalink: /services/
 2. Theory prep with material that sticks.
 3. Practical lessons on real-world routes.
 4. Exam simulation and day-of guidance.
+</div>

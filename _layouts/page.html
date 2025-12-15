@@ -32,12 +32,32 @@
     <main class="container page-content">
       <h1 class="page-title">{{ page.title }}</h1>
       <div class="lang-switch">
-        <a href="#el">Ελληνικά</a>
-        <span aria-hidden="true">/</span>
-        <a href="#en">English</a>
+        <div class="lang-toggle" role="group" aria-label="Language toggle">
+          <button type="button" class="active" data-lang="el">Ελληνικά</button>
+          <button type="button" data-lang="en">English</button>
+        </div>
       </div>
       {{ content }}
     </main>
     {% include footer.html %}
+    <script>
+      (function() {
+        const buttons = document.querySelectorAll('.lang-toggle button');
+        const blocks = document.querySelectorAll('.lang-block');
+        function setLang(lang) {
+          buttons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+          blocks.forEach(section => {
+            section.classList.toggle('lang-hidden', section.dataset.lang !== lang);
+          });
+          const firstVisible = document.querySelector(`.lang-block[data-lang="${lang}"]`);
+          if (firstVisible) {
+            const anchor = firstVisible.querySelector('h2');
+            if (anchor) anchor.focus({preventScroll:true});
+          }
+        }
+        buttons.forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
+        setLang('el');
+      })();
+    </script>
   </body>
 </html>

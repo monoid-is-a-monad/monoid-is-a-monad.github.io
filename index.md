@@ -31,11 +31,12 @@ permalink: /
   </div>
 </div>
 
+<div class="lang-block" data-lang="el">
 ## Ελληνικά {#el}
 
 ### Γιατί να μας επιλέξετε
 - 30+ χρόνια συνεχούς λειτουργίας στην Τούμπα με χιλιάδες επιτυχημένους οδηγούς.
-- Σύγχρονος στόλος οχημάτων (αυτόματα & χειροκίνητα) για άνετη εκμάθηση.
+- Σύγχρονος στόλος χειροκίνητων οχημάτων για άνετη εκμάθηση.
 - Θεωρητική προετοιμασία με mock tests και σημειώσεις που μένουν.
 - Προσωποποιημένα μαθήματα πρακτικής, στον ρυθμό σου.
 
@@ -46,7 +47,9 @@ permalink: /
 - Υποστήριξη στην γραφειοκρατία και στα ραντεβού εξετάσεων.
 
 <div class="callout">Στόχος μας: να αποκτήσεις αυτοπεποίθηση, ασφάλεια και καλές συνήθειες οδήγησης από το πρώτο μάθημα.</div>
+</div>
 
+<div class="lang-block" data-lang="en">
 ## English {#en}
 
 ### Why choose us
@@ -62,3 +65,4 @@ permalink: /
 - Guidance through paperwork and exam bookings.
 
 <div class="callout">Our goal: confidence, safety, and smart driving habits from lesson one.</div>
+</div>

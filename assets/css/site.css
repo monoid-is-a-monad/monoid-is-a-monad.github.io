@@ -134,6 +134,44 @@ body {
   margin-bottom: 16px;
 }
 
+.lang-toggle {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.lang-toggle button {
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.lang-toggle button.active {
+  background: var(--brand);
+  color: #fff;
+  border-color: var(--brand);
+}
+
+.lang-hidden {
+  display: none;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .section-card {
   background: var(--card);
   border: 1px solid var(--border);
