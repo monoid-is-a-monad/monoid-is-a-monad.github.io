@@ -9,7 +9,7 @@ permalink: /contact/
   <h2>Στοιχεία επικοινωνίας / Contact details</h2>
   <ul class="quick-list">
     <li><strong>Τηλέφωνο:</strong> <a href="tel:+306937258280">+30 693 725 8280</a></li>
-    <li><strong>Διεύθυνση:</strong> Ανατολικής Θράκης 49, Τούμπα, Θεσσαλονίκη</li>
+    <li><strong>Διεύθυνση:</strong> <a href="https://maps.app.goo.gl/ybc2YPSxsAci7yRP6" target="_blank" rel="noopener">Ανατολικής Θράκης 49, Τούμπα, Θεσσαλονίκη</a></li>
     <li><strong>Facebook:</strong> <a class="icon-link" href="https://www.facebook.com/KarathanasisAkis/about"><span class="icon" aria-hidden="true">📘</span>KarathanasisAkis</a></li>
     <li><strong>Instagram:</strong> <a class="icon-link" href="https://www.instagram.com/karathanasissxoliodigon/"><span class="icon" aria-hidden="true">📸</span>@karathanasissxoliodigon</a></li>
   </ul>
@@ -56,6 +56,6 @@ permalink: /contact/
 Call or send the form and we will suggest a theory and practical plan that fits your schedule.
 
 - Phone: +30 693 725 8280
-- Area: Anatolikis Thrakis 49, Toumpa
+- Area: <a href="https://maps.app.goo.gl/ybc2YPSxsAci7yRP6" target="_blank" rel="noopener">Anatolikis Thrakis 49, Toumpa</a>
 - Hours: Flexible, by appointment
 </div>

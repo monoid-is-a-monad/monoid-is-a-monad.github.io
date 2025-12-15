@@ -21,7 +21,7 @@ permalink: /
     </div>
     <ul class="quick-list" style="margin-top:12px;">
       <li><strong>Τηλέφωνο:</strong> <a href="tel:+306937258280">+30 693 725 8280</a></li>
-      <li><strong>Διεύθυνση:</strong> Ανατολικής Θράκης 49, Τούμπα, Θεσσαλονίκη</li>
+      <li><strong>Διεύθυνση:</strong> <a href="https://maps.app.goo.gl/ybc2YPSxsAci7yRP6" target="_blank" rel="noopener">Ανατολικής Θράκης 49, Τούμπα, Θεσσαλονίκη</a></li>
     </ul>
   </div>
   <div class="highlight-box">

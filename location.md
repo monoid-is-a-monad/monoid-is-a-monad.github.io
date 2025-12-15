@@ -5,28 +5,24 @@ description: "Στην Ανατολικής Θράκης 49, Τούμπα Θεσ
 permalink: /location/
 ---
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-u6Q6S8gPC1LkL5cUAGfDkF0p0pTBK5fE1I1r3hYv+hA=" crossorigin="" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j8Mk3xjVtGa3aVdQ0iXLqglpWw2D6I1egYQ3p3s=" crossorigin=""></script>
-
-<div class="section-card map-wrap" id="map" aria-label="Χάρτης σχολής"></div>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var map = L.map("map").setView([40.6154, 22.9720], 15);
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution: "© OpenStreetMap contributors"
-    }).addTo(map);
-    L.marker([40.6154, 22.9720]).addTo(map)
-      .bindPopup("Σχολή Οδηγών Καραθανάσης / Karathanasis Driving School")
-      .openPopup();
-  });
-</script>
+<div class="section-card map-wrap" aria-label="Χάρτης σχολής">
+  <iframe
+    title="Karathanasis Driving School on Google Maps"
+    width="100%"
+    height="360"
+    style="border:0;"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade"
+    src="https://maps.app.goo.gl/ybc2YPSxsAci7yRP6">
+  </iframe>
+</div>
 
 <div class="lang-block" data-lang="el">
 ## Ελληνικά {#el}
 
 ### Πώς θα μας βρείτε
-- Διεύθυνση: Ανατολικής Θράκης 49, Τούμπα, Θεσσαλονίκη.
+- Διεύθυνση: <a href="https://maps.app.goo.gl/ybc2YPSxsAci7yRP6" target="_blank" rel="noopener">Ανατολικής Θράκης 49, Τούμπα, Θεσσαλονίκη</a>.
 - Περιοχή: Κοντά σε κεντρικές στάσεις ΜΜΜ και εύκολη πρόσβαση από την Λαμπράκη.
 
 ### Μετακίνηση & στάθμευση
@@ -39,7 +35,7 @@ permalink: /location/
 ## English {#en}
 
 ### How to find us
-- Address: Anatolikis Thrakis 49, Toumpa, Thessaloniki.
+- Address: <a href="https://maps.app.goo.gl/ybc2YPSxsAci7yRP6" target="_blank" rel="noopener">Anatolikis Thrakis 49, Toumpa, Thessaloniki</a>.
 - Area: Close to main bus stops with easy access from Lambraki Avenue.
 
 ### Transport & parking
