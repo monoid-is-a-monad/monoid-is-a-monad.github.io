@@ -22,8 +22,14 @@ permalink: /
       <span class="badge">📍 Κεντρική τοποθεσία</span>
     </div>
     <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
-      <a class="btn primary" href="{{ "/contact/" | relative_url }}">Κλείσε μάθημα</a>
-      <a class="btn ghost" href="{{ "/services/" | relative_url }}">Δες τις υπηρεσίες</a>
+      <a class="btn primary" href="{{ "/contact/" | relative_url }}">
+        <span class="lang-inline" data-lang="el">Κλείσε μάθημα</span>
+        <span class="lang-inline" data-lang="en">Book a lesson</span>
+      </a>
+      <a class="btn ghost" href="{{ "/services/" | relative_url }}">
+        <span class="lang-inline" data-lang="el">Δες τις υπηρεσίες</span>
+        <span class="lang-inline" data-lang="en">View services</span>
+      </a>
     </div>
     <ul class="quick-list" style="margin-top:12px;">
       <li><strong>Τηλέφωνο:</strong> <a href="tel:+306937258280">+30 693 725 8280</a></li>
@@ -39,7 +45,10 @@ permalink: /
       <h3>Ready to drive with confidence?</h3>
       <p>Practical & theory training for cars (B) and motorcycles (A) on well-maintained manual vehicles. Fast-track options available.</p>
     </div>
-    <p><a class="btn primary" href="{{ "/contact/" | relative_url }}">Κλείσε μάθημα / Book a lesson</a></p>
+    <p><a class="btn primary" href="{{ "/contact/" | relative_url }}">
+      <span class="lang-inline" data-lang="el">Κλείσε μάθημα</span>
+      <span class="lang-inline" data-lang="en">Book a lesson</span>
+    </a></p>
   </div>
 </div>
 

@@ -34,7 +34,10 @@ permalink: /contact/
       <textarea name="message" required></textarea>
     </label>
     <p class="callout">Τα στοιχεία χρησιμοποιούνται αποκλειστικά για επικοινωνία σχετικά με μαθήματα οδήγησης. / Your data is used solely to contact you about driving lessons.</p>
-    <button class="btn primary" type="submit">Αποστολή / Send</button>
+    <button class="btn primary" type="submit">
+      <span class="lang-inline" data-lang="el">Αποστολή</span>
+      <span class="lang-inline" data-lang="en">Send</span>
+    </button>
   </form>
 </div>
 

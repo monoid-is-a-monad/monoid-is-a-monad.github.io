@@ -21,11 +21,26 @@
       <div class="container header-inner">
         <a class="brand" href="{{ "/" | relative_url }}"><span class="l-badge" aria-hidden="true">L</span>Σχολή Οδηγών Καραθανάσης</a>
         <nav class="nav">
-          <a href="{{ "/about/" | relative_url }}">Σχετικά</a>
-          <a href="{{ "/services/" | relative_url }}">Υπηρεσίες</a>
-          <a href="{{ "/location/" | relative_url }}">Τοποθεσία</a>
-          <a href="{{ "/contact/" | relative_url }}">Επικοινωνία</a>
-          <a class="btn primary" href="{{ "/contact/" | relative_url }}">Κλείσε μάθημα / Book a lesson</a>
+          <a href="{{ "/about/" | relative_url }}">
+            <span class="lang-inline" data-lang="el">Σχετικά</span>
+            <span class="lang-inline" data-lang="en">About</span>
+          </a>
+          <a href="{{ "/services/" | relative_url }}">
+            <span class="lang-inline" data-lang="el">Υπηρεσίες</span>
+            <span class="lang-inline" data-lang="en">Services</span>
+          </a>
+          <a href="{{ "/location/" | relative_url }}">
+            <span class="lang-inline" data-lang="el">Τοποθεσία</span>
+            <span class="lang-inline" data-lang="en">Location</span>
+          </a>
+          <a href="{{ "/contact/" | relative_url }}">
+            <span class="lang-inline" data-lang="el">Επικοινωνία</span>
+            <span class="lang-inline" data-lang="en">Contact</span>
+          </a>
+          <a class="btn primary" href="{{ "/contact/" | relative_url }}">
+            <span class="lang-inline" data-lang="el">Κλείσε μάθημα</span>
+            <span class="lang-inline" data-lang="en">Book a lesson</span>
+          </a>
         </nav>
       </div>
     </header>
@@ -43,7 +58,7 @@
     <script>
       (function() {
         const buttons = document.querySelectorAll('.lang-toggle button');
-        const blocks = document.querySelectorAll('.lang-block');
+        const blocks = document.querySelectorAll('.lang-block, .lang-inline');
         function setLang(lang) {
           buttons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
           blocks.forEach(section => {

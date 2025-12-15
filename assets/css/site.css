@@ -159,6 +159,10 @@ body {
   display: none;
 }
 
+.lang-inline {
+  display: inline;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
