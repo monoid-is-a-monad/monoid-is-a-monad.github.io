@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="el">
+<html lang="{{ page.lang | default: site.lang | default: 'el' }}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,62 +17,29 @@
     {% include head-extra.html %}
   </head>
   <body>
+    {% assign current_lang = page.lang | default: site.lang | default: 'el' %}
+    {% assign t = site.data.i18n[current_lang] %}
+    {% if current_lang == 'en' %}
+      {% assign lang_prefix = '/en' %}
+    {% else %}
+      {% assign lang_prefix = '/el' %}
+    {% endif %}
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="{{ "/" | relative_url }}"><span class="l-badge" aria-hidden="true">L</span>Σχολή Οδηγών Καραθανάσης</a>
+        <a class="brand" href="{{ lang_prefix | relative_url }}"><span class="l-badge" aria-hidden="true">L</span>{{ t.brand }}</a>
         <nav class="nav">
-          <a href="{{ "/about/" | relative_url }}">
-            <span class="lang-inline" data-lang="el">Σχετικά</span>
-            <span class="lang-inline" data-lang="en">About</span>
-          </a>
-          <a href="{{ "/services/" | relative_url }}">
-            <span class="lang-inline" data-lang="el">Υπηρεσίες</span>
-            <span class="lang-inline" data-lang="en">Services</span>
-          </a>
-          <a href="{{ "/location/" | relative_url }}">
-            <span class="lang-inline" data-lang="el">Τοποθεσία</span>
-            <span class="lang-inline" data-lang="en">Location</span>
-          </a>
-          <a href="{{ "/contact/" | relative_url }}">
-            <span class="lang-inline" data-lang="el">Επικοινωνία</span>
-            <span class="lang-inline" data-lang="en">Contact</span>
-          </a>
-          <a class="btn primary" href="{{ "/contact/" | relative_url }}">
-            <span class="lang-inline" data-lang="el">Κλείσε μάθημα</span>
-            <span class="lang-inline" data-lang="en">Book a lesson</span>
-          </a>
+          <a href="{{ lang_prefix | append: '/about/' | relative_url }}">{{ t.nav.about }}</a>
+          <a href="{{ lang_prefix | append: '/services/' | relative_url }}">{{ t.nav.services }}</a>
+          <a href="{{ lang_prefix | append: '/location/' | relative_url }}">{{ t.nav.location }}</a>
+          <a href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ t.nav.contact }}</a>
+          <a class="btn primary" href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ t.nav.cta }}</a>
         </nav>
       </div>
     </header>
     <main class="container page-content">
       <h1 class="page-title">{{ page.title }}</h1>
-      <div class="lang-switch">
-        <div class="lang-toggle" role="group" aria-label="Language toggle">
-          <button type="button" class="active" data-lang="el">Ελληνικά</button>
-          <button type="button" data-lang="en">English</button>
-        </div>
-      </div>
       {{ content }}
     </main>
     {% include footer.html %}
-    <script>
-      (function() {
-        const buttons = document.querySelectorAll('.lang-toggle button');
-        const blocks = document.querySelectorAll('.lang-block, .lang-inline');
-        function setLang(lang) {
-          buttons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
-          blocks.forEach(section => {
-            section.classList.toggle('lang-hidden', section.dataset.lang !== lang);
-          });
-          const firstVisible = document.querySelector(`.lang-block[data-lang="${lang}"]`);
-          if (firstVisible) {
-            const anchor = firstVisible.querySelector('h2');
-            if (anchor) anchor.focus({preventScroll:true});
-          }
-        }
-        buttons.forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
-        setLang('el');
-      })();
-    </script>
   </body>
 </html>

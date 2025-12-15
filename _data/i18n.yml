@@ -1,0 +1,35 @@
+el:
+  brand: "Σχολή Οδηγών Καραθανάσης"
+  nav:
+    about: "Σχετικά"
+    services: "Υπηρεσίες"
+    location: "Τοποθεσία"
+    contact: "Επικοινωνία"
+    cta: "Κλείσε μάθημα"
+  language_label: "Ελληνικά"
+  choose_language: "Επιλέξτε γλώσσα"
+  home_cta: "Κλείσε μάθημα"
+  services_cta: "Δες τις υπηρεσίες"
+  contact_cta: "Στείλε μήνυμα"
+  form_submit: "Αποστολή"
+  lang_names:
+    el: "Ελληνικά"
+    en: "English"
+
+en:
+  brand: "Karathanasis Driving School"
+  nav:
+    about: "About"
+    services: "Services"
+    location: "Location"
+    contact: "Contact"
+    cta: "Book a lesson"
+  language_label: "English"
+  choose_language: "Choose your language"
+  home_cta: "Book a lesson"
+  services_cta: "View services"
+  contact_cta: "Send message"
+  form_submit: "Send"
+  lang_names:
+    el: "Ελληνικά"
+    en: "English"

@@ -8,12 +8,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Navigation
-header_pages:
-  - about.md
-  - services.md
-  - location.md
-  - contact.md
+# Navigation (custom header in layout)
+header_pages: []
 
 # Social links for minima
 social_links:
@@ -24,6 +20,18 @@ social_links:
 
 # Defaults
 defaults:
+  - scope:
+      path: "el"
+      type: "pages"
+    values:
+      layout: page
+      lang: el
+  - scope:
+      path: "en"
+      type: "pages"
+    values:
+      layout: page
+      lang: en
   - scope:
       path: ""
       type: "pages"
