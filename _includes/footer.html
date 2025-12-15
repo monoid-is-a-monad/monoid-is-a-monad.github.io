@@ -1,12 +1,19 @@
 <footer class="site-footer">
+  {% assign current_lang = page.lang | default: site.lang | default: 'el' %}
+  {% if current_lang == 'en' %}
+    {% assign lang_prefix = '/en' %}
+  {% else %}
+    {% assign lang_prefix = '/el' %}
+  {% endif %}
+  {% assign t = site.data.i18n[current_lang] %}
   <div class="container footer-grid">
     <div>
-      <div class="brand">Σχολή Οδηγών Καραθανάσης</div>
+      <div class="brand">{{ t.brand }}</div>
       <p><a href="https://www.google.com/maps?q=%CE%91%CE%BD%CE%B1%CF%84%CE%BF%CE%BB%CE%B9%CE%BA%CE%AE%CF%82+%CE%98%CF%81%CE%AC%CE%BA%CE%B7%CF%82+49,+%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7" target="_blank" rel="noopener">Ανατολικής Θράκης 49, Τούμπα, Θεσσαλονίκη</a></p>
       <p><a href="tel:+306937258280">+30 693 725 8280</a></p>
     </div>
     <div>
-      <p><strong>Ακολουθήστε μας</strong></p>
+      <p><strong>{% if current_lang == 'en' %}Follow us{% else %}Ακολουθήστε μας{% endif %}</strong></p>
       <p>
         <a class="icon-link" href="https://www.facebook.com/KarathanasisAkis/about">
           <img class="icon" src="{{ '/assets/img/facebook.png' | relative_url }}" alt="Facebook" />Facebook
@@ -17,19 +24,16 @@
       </p>
     </div>
     <div>
-      <p><strong>Γρήγοροι σύνδεσμοι</strong></p>
+      <p><strong>{% if current_lang == 'en' %}Quick links{% else %}Γρήγοροι σύνδεσμοι{% endif %}</strong></p>
       <p>
-        <a href="{{ "/services/" | relative_url }}">Υπηρεσίες</a><br />
-        <a href="{{ "/location/" | relative_url }}">Τοποθεσία</a><br />
-        <a href="{{ "/contact/" | relative_url }}">Επικοινωνία</a>
+        <a href="{{ lang_prefix | append: '/services/' | relative_url }}">{{ t.nav.services }}</a><br />
+        <a href="{{ lang_prefix | append: '/location/' | relative_url }}">{{ t.nav.location }}</a><br />
+        <a href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ t.nav.contact }}</a>
       </p>
     </div>
   </div>
   <div class="container footer-bottom">
     <span>© {{ site.time | date: "%Y" }} Karathanasis Driving School</span>
-    <a class="btn ghost" href="{{ "/contact/" | relative_url }}">
-      <span class="lang-inline" data-lang="el">Κλείσε μάθημα</span>
-      <span class="lang-inline" data-lang="en">Book a lesson</span>
-    </a>
+    <a class="btn ghost" href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ t.nav.cta }}</a>
   </div>
 </footer>
